@@ -5,43 +5,47 @@
     <meta charset="utf-8">
     <title>About Me</title>
     <link rel="stylesheet" href="styles.css">
-    <style>
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: brown;;
-}
+      <style>
+      .myDiv
+        ul {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          overflow: hidden;
+          background-color: brown;;
+        }
 
-li {
-  float: left;
-}
+        li {
+          float: left;
+        }
 
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 16px;
-  text-decoration: none;
-}
+        li a {
+          display: block;
+          color: white;
+          text-align: center;
+          padding: 16px;
+          text-decoration: none;
+        }
 
-li a:hover {
-  background-color: #111111;
-}
-</style>
+        li a:hover {
+          background-color: lightblue;
+        }
+      </style>
 </head>
 <body>
-
-<h2>Navigation Menu</h2>
-<p>In this example, we use CSS to style the list horizontally, to create a navigation menu:</p>
-
-<ul>
-  <li><a href="#home">Home</a></li>
-  <li><a href="#news">Hobbies</a></li>
-  <li><a href="#contact">Contact</a></li>
-  <li><a href="#about">About</a></li>
-</ul>
+  <h2>About Me</h2>
+  <div class="myDiv">
+  <ul>
+    <li><a href="index.html"
+      target = "_blank">Home</a></li>
+    <li><a href="hobbies.html"
+      target = "_blank">Hobbies</a></li>
+    <li><a href="contactme.html"
+      target = "_blank">Contact</a></li>
+    <li><a href="aboutme.html"
+      target = "_blank">About Me</a></li>
+  </ul>
+  </div>
 
 <h1>This is H1!</h1>
 <h2>This is H2</h2>
@@ -51,17 +55,7 @@ li a:hover {
     target = "_blank">Find me and connect on LinkedIn!</a></h5>
   <a href="mailto:ponceel@oregonstate.edu">Send me an email</a>
 
-<p>Click this button to download my current CV:</p>
-
-<a href="index.html"
-  target = "_blank">Click here to go back to Homepage!</a>
-
-<a href="contactme.html"
-  target = "_blank">Click here to get in touch with me!</a>
-
-<a href="hobbies.html"
-  target = "_blank">Click here to read more about my hobbies!</a>
-
+<p>Click this logo to download my current CV:</p>
 
 
 <script src="script.js"></script>
