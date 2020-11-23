@@ -36,6 +36,11 @@ table, th, td {
     background-color: lightblue;
   }
 
+.wrapper {
+  height:50px;
+  border: solid 3px red;
+  overflow: scroll;
+}
 
 
 /*w3slideshowstyling
