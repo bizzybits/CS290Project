@@ -28,39 +28,37 @@
   <form>
     <form>
       <fieldset>
-        <legend>Join my mailing list</legend>
 
-        <label for="city_name">Please enter "city name, country code" :</label>
-        <br></br>
-        <input type="text" name="city_name" id="city_name">
-        <input type="submit" id="city_name_Submit">
-        <br></br>
+        <form action= "http://web.engr.oregonstate.edu/~zhangluy/tools/class-content/form_tests/check_request.php" method="get">
+            <fieldset>
+              <legend>Join my mailing list!</legend>
+            <fieldset>
+              <label>First Name:
+                <input name="first">
+               </label>
+               <br />
+            </fieldset>
+            <br />
+            <fieldset>
+                  <label>Last Name:</label>
+                  <input name="last">
+            </fieldset>
+              <br />
+            <fieldset>
+              <label>E-mail address:</label>
+                <input name="email">
+            </fieldset>
+              <input type="submit" value="Submit" />
 
-        <label for="zipcode">Please enter "zipcode, country code" : </label>
-        <br></br>
-        <input type="text" name="zipcode" id="zipcode">
-        <input type="submit" id="zipcode_Submit">
-        <br></br>
+        <h6>AND</h6>
         <label for="dog">Click here for a dog: </label>
 
         <br></br>
-        <!input type="text" name="get-dog" id="get-dog">
-        <input type="submit" id="get-dog">
+        <input type="submit" value="Fetch!" id="get-dog">
       </fieldset>
 
-
-        <!-- <legend>See some dogs!</legend>
-        <label for="breed_name">Please enter a breed name:</label>
-        <br></br>
-        <input type="text" name="breed_name" id="breed_name">
-        <input type="submit" id="breed_name_Submit">
-      </fieldset>
-    </form> -->
     <div>
-      <h2>Excellent photos of dogs!</h2>
-      <ul>
-        <li><span>THE WEATHER for the city or zip code requested from Open Wather Map:</span><span id="dog"></span></li>
-      </ul>
+      <h2>Enjoy a random photo of a dog!</h2>
     </div>
     <div class="demo-image" id="demo-image">
     </div>
