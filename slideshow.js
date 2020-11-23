@@ -1,4 +1,4 @@
-//carousel js, css and html   adapted from https://markus.oberlehner.net/ and w3schools
+//carousel js, css and html adapted from https://markus.oberlehner.net/ and w3schools
 var slideIndex = 1;
 showSlides();
 var myTimer;

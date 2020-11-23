@@ -1,23 +1,47 @@
 body {
-  background-color: lightblue;
+  background-color: #ddbea9;
+  font-family: 'Work Sans', sans-serif;
 }
 
 h1 {
   color: navy;
   margin-left: 20px;
+  text-align: center;
+  font-family: 'Work Sans', sans-serif;
 }
 
-table, th, td {
-  border: 1px solid black;
-  width: 100%;
+h2 {
+  color: black;
+  text-align: center;
+  font-family: 'Work Sans', sans-serif;
 }
+h4 {
+  text-align:center;
+  font-family: 'Work Sans', sans-serif;
+}
+h5 {
+  text-align: center;
+  font-family: 'Work Sans', sans-serif;
+}
+
+p {
+  text-align: center;
+  font-family: 'Work Sans', sans-serif;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .myDiv
   ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: brown;;
+    background-color: #cb997e;
   }
  .myDiv
   li {
@@ -30,21 +54,21 @@ table, th, td {
     text-align: center;
     padding: 16px;
     text-decoration: none;
+    text-align: center;
   }
  .myDiv
   li a:hover {
-    background-color: lightblue;
+    background-color: #b7b7a4;
   }
 
 .wrapper {
   height:50px;
-  border: solid 3px red;
+  border: solid 3px #fff1e6;
   overflow: scroll;
 }
 
 
-/*w3slideshowstyling
-{box-sizing:border-box}
+/*adapted slideshow styling from w3school example*/
 
 /* Slideshow container */
 .slideshow-container {
@@ -108,23 +132,6 @@ table, th, td {
   top: 0;
 }
 
-/* The dots/bullets/indicators */
-/* .dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-
-.active, .dot:hover {
-  background-color: #717171;
-} */
-
-/* Fading animation */
 .fade {
   -webkit-animation-name: fade;
   -webkit-animation-duration: 1.5s;
