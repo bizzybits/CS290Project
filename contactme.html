@@ -23,21 +23,29 @@
   <h1>This is H1!</h1>
   <h2>This is H2</h2>
 
-<h4>Here is where I will make a form to fill out to join my mailing list?</h4>
+<h4>Here is where I will make a form to fill out to join my mailing list.</h4>
 
   <form>
     <form>
       <fieldset>
-        <legend>Weather Location Finder</legend>
+        <legend>Join my mailing list</legend>
+
         <label for="city_name">Please enter "city name, country code" :</label>
         <br></br>
         <input type="text" name="city_name" id="city_name">
         <input type="submit" id="city_name_Submit">
         <br></br>
+
         <label for="zipcode">Please enter "zipcode, country code" : </label>
         <br></br>
         <input type="text" name="zipcode" id="zipcode">
         <input type="submit" id="zipcode_Submit">
+        <br></br>
+        <label for="dog">Click here for a dog: </label>
+
+        <br></br>
+        <!input type="text" name="get-dog" id="get-dog">
+        <input type="submit" id="get-dog">
       </fieldset>
 
 
@@ -51,8 +59,10 @@
     <div>
       <h2>Excellent photos of dogs!</h2>
       <ul>
-        <li><span>THE WEATHER for the city or zip code requested from Open Wather Map:</span><span id="coordinates"></span></li>
+        <li><span>THE WEATHER for the city or zip code requested from Open Wather Map:</span><span id="dog"></span></li>
       </ul>
+    </div>
+    <div class="demo-image" id="demo-image">
     </div>
   </form>
 
